@@ -12,6 +12,7 @@ const IPCIDR = require('ip-cidr');
  *                 in CIDR format.
  * @param {callback} callback - A callback function.
  * @return {string} (firstIpAddress) - An IPv4 address.
+ *@return {string} (dataReturned) - An IPv4 address and IPv6 address
  */
 function getFirstIpAddress(cidrStr, callback) {
 
